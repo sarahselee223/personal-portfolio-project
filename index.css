@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    background-color: #333;
+}
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    letter-spacing: .1rem;
+    font-family: 'Avenir Light', sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+}
+.cover-container {
+    max-width: 55em;
+}
+.mb-auto, .my-auto {
+    margin: 10%;
+}
+.title{
+    text-align: center!important;
+}
+
+.media, .media-body{
+    margin-bottom: 5%
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+    width: 80%;
+}
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mt-0{
+    margin-bottom: 5%
+}
+.content{
+    margin-top: 3%
+}
